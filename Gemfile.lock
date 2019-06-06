@@ -1,3 +1,10 @@
+PATH
+  remote: ../puma-datadog
+  specs:
+    puma-datadog (0.1.0)
+      dogapi
+      puma (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -77,6 +84,8 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    dogapi (1.36.0)
+      multi_json
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -105,6 +114,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     msgpack (1.2.10)
+    multi_json (1.13.1)
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
@@ -234,6 +244,7 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma (~> 3.11)
+  puma-datadog!
   rails (~> 5.2.3)
   sass-rails (~> 5.0)
   selenium-webdriver
